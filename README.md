@@ -1,3 +1,7 @@
+_NOTE:_ You will need to set the `REACT_APP_OPEN_WEATHER_API_KEY` environment variable for the app to communicate with the Open Weather Map API.
+
+_NOTE:_ An .nvmrc file is included to help you get the correct version of NodeJS running, but you don't have to use it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
