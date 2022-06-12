@@ -22,7 +22,7 @@ export interface CurrentWeatherData {
   wind_speed: number;
 }
 
-interface DailyWeatherData {
+export interface DailyWeatherData {
   dt: number;
   sunrise: number;
   sunset: number;
@@ -63,12 +63,11 @@ interface DailyWeatherData {
   uvi: number;
 }
 
-
 export interface OneCallResponseData {
   current: CurrentWeatherData;
   daily: DailyWeatherData[];
   lat: number;
   lon: number;
-  timezone: string
-  timezone_offset: number
+  timezone: string;
+  timezone_offset: number;
 }

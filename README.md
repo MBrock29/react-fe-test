@@ -1,40 +1,15 @@
-_NOTE:_ You will need to set the `REACT_APP_OPEN_WEATHER_API_KEY` environment variable for the app to communicate with the Open Weather Map API.
+To get the app running you will need to create a .env file in the root of the project with the following:
 
-_NOTE:_ An .nvmrc file is included to help you get the correct version of NodeJS running, but you don't have to use it.
+```
+REACT_APP_OPEN_WEATHER_API_KEY=YOUR_API_KEY
+```
 
-# Getting Started with Create React App
+Things to improve given more time:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Displaying the DailyWeatherDetailed data in a format consistent to the rest of the project.
 
-## Available Scripts
+- If no data in DailyWeatherDetailed then possibly redirect to a 404 page or homepage with an error toast/message.
 
-In the project directory, you can run:
+- Task 4 failed due to the degree symbol, I moved onto the next task given the time constraints.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Write tests on functions inside /utils to ensure they would work as expected with various inputs.
