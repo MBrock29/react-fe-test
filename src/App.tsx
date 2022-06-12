@@ -40,11 +40,17 @@ const App: React.FC = () => {
             </p>
             <nav>
               <ul>
+                <li className="font-bold underline">
+                  Click below for Current forecast or 7-day forecast
+                </li>
                 <li>
                   <Link to="/">Current forecast</Link>
                 </li>
                 <li>
-                  <Link to="/week">7 day forecast</Link>
+                  <Link to="/week">
+                    7-day forecast (individual dates can be clicked for further
+                    info)
+                  </Link>
                 </li>
               </ul>
             </nav>
